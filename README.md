@@ -151,8 +151,8 @@ The modulus operator `%` determine how much of a remainder is left after perform
 We can determine the **parity**, or whether or not a number is even, by checking to see if it is divisible by 2. You have already seen this for fizzbuzz with 3 and 5.
 
 ```js
-var number = 2;
-var otherNumber = 3;
+let number = 2;
+let otherNumber = 3;
 
 if (number % 2 === 0) {
   console.log("number is even");
