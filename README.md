@@ -103,8 +103,8 @@ One might involve storing each row in an array, iterating over the array with a 
 > Run this code in your browser console (CMD+OPT+I in _Chrome_)
 
 ```js
-var kardashians = ["Kim", "Khloé", "Kourtney"];
-for (var index = 0; index < kardashians.length; index++) {
+let kardashians = ["Kim", "Khloé", "Kourtney"];
+for (let index = 0; index < kardashians.length; index++) {
   console.log(kardashians[index]);
 }
 ```
@@ -118,12 +118,12 @@ String concatenation is a complicated-sounding way of saying joining strings tog
 Try playing around with the examples below...
 
 ```js
-var coolWord = "spatula";
+let coolWord = "spatula";
 console.log(coolWord);
-var coolWords = "spatula" + " city";
+let coolWords = "spatula" + " city";
 console.log(coolWords);
 
-var buildMeUpString = "";
+let buildMeUpString = "";
 buildMeUpString = buildMeUpString + "I came from nothing!";
 console.log(buildMeUpString);
 buildMeUpString += " Now I have 2 sentences!";
